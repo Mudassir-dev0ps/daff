@@ -1,8 +1,8 @@
 variable "rg_name"{
-default="mudassir"
+default="daff"
 }
 
-resource "azurerm_resource_group" "example" {
+resource "azurerm_resource_group" "exampledaff" {
   name=var.rg_name
   location = "westus"
 }
